@@ -31,7 +31,7 @@
     <body >
         <div class="container  bg bg-info">
             
-            
+            <form action="/add" method="POST">
             <h2 align="center">Sign up</h2>
             <div class="form-group row"><div class="col-xs-8">
             <label>Username:</label> 
@@ -49,8 +49,8 @@
             <div class="input-group ">
             <input type="password" class="form-control "  name="repassword" placeholder="confirm password" required><br>
               </div>  <br>
-             <a class="nav-link" href="{{ url_for('signin')}}">
-            <button class="btn btn-dark " align="center">submit</button></a>
+            <button class="btn btn-dark " align="center">Submit</button></a>
+ <p style="color:white">If you are already registered.<a href={{url_for('signin')}}><b style="color:red"> click here for Signin.</b></a></p>
             </div>
               </div>
             </form>

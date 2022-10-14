@@ -27,7 +27,7 @@
     </head>
     <body>
     <div class="container bg bg-secondary">
-        
+        <form action="/check" method="GET">
             <h2 align="center">Sign in</h2>
             <div class="container-fluid form-group">
                 <div class="col-xs-6">
@@ -39,7 +39,7 @@
                 <div class="input-group"> 
                         <input type="password" class="form-control" name="password" placeholder="password" required>
                  </div><br>
-                 <button class="btn btn-dark" >submit</button>
+                 <button class="btn btn-dark" >Submit</button>
                  
                  <p style="color:white">Create an Account<a href={{url_for('signup')}}><b style="color:red">click here.</b></a></p>
             </div>
